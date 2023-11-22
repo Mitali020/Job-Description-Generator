@@ -1,0 +1,11 @@
+{
+  "database": {
+    "server": "localhost",
+    "database_name": "gpt_test",
+    "username": "root",
+    "password": "12345"
+  },
+  "OpenAI": {
+    "key": "OpenAI_Key"}
+}
+
