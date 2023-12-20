@@ -1,0 +1,5 @@
+pandas
+flask
+logging
+langchain
+pymysql
