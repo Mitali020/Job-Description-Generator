@@ -81,6 +81,34 @@ Import JobDescriptionGenerator from `main.py`.
 Initialize the JobDescriptionGenerator class with the path to the `config.json` file.
 Call the generated_job_description() method to generate job descriptions.
 
+##### Function Use within JobDescriptionGenerator Class:
+1. __init__(self, config_file_path)
+
+Use: Initializes the class, loads settings from a configuration file, and sets up logging.
+
+Purpose: Ensures proper setup by loading necessary configurations and preparing the logging mechanism.
+
+2. load_config(self)
+
+Use: Loads configuration settings from a JSON file.
+
+Purpose: Retrieves crucial settings such as the OpenAI API key required for the job description generation process.
+
+3. setup_logging(self)
+
+Use: Sets up the logging configuration.
+
+Purpose: Establishes a logging mechanism to record actions and outcomes during the job description generation process.
+
+4. generated_job_description(self)
+
+Use: Fetches data from a database, constructs job description templates, utilizes AI models to generate descriptions, refines and logs the generated descriptions, and stores them back in the database.
+
+Purpose: Executes the entire job description generation workflow, from data retrieval to generating, refining, and storing job descriptions based on fetched information.
+
+
+Each function within the JobDescriptionGenerator class plays a specific role in facilitating different stages of the job description generation process, ensuring a streamlined and comprehensive approach from data retrieval to final storage.
+
 #### Database Connection (db_connection.py):
 Import the DatabaseConnection class from `db_connection.py`.
 Instantiate DatabaseConnection to establish and manage database connections.
