@@ -3,3 +3,4 @@ flask
 logging
 langchain
 pymysql
+json
