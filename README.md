@@ -54,12 +54,6 @@ Dependencies:
 - re
 - db_connection
 
-## Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file
-
-`API_KEY`
-
 ## Setup Instructions:
 #### Environment Setup:
 
